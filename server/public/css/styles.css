@@ -29,18 +29,16 @@ body {
   flex: 0 0 auto;
   /* only manually resize */
   padding: 10px;
-  width: 300px;
+  width: 50%;
   min-height: 200px;
   min-width: 150px;
-  white-space: nowrap;
-  background: #838383;
-  color: white;
+  background: #eee;
 }
 
 .splitter {
   flex: 0 0 auto;
   width: 18px;  
-  background: url(../images/vsizegrip.png) center center no-repeat #535353;
+  background: url(../images/vsizegrip.png) center center no-repeat silver;
   min-height: 200px;
   cursor: col-resize;  
 }
@@ -49,7 +47,6 @@ body {
   flex: 1 1 auto;
   /* resizable */
   padding: 10px;
-  width: 100%;
   min-height: 200px;
   min-width: 200px;
   background: #eee;
@@ -70,17 +67,16 @@ body {
   flex: 0 0 auto;
   /* only manually resize */
   padding: 10px;
-  height: 150px;
+  height: 50%;
   width: 100%;
   white-space: nowrap;
-  background: #838383;
-  color: white;
+  background: #eee;
 }
 
 .splitter-horizontal {
   flex: 0 0 auto;
   height: 18px;
-  background: url(../images/hsizegrip.png) center center no-repeat #535353;
+  background: url(../images/hsizegrip.png) center center no-repeat silver;
   cursor: row-resize;
 }
 
@@ -88,6 +84,7 @@ body {
   flex: 1 1 auto;
   /* resizable */
   padding: 10px;
+  height:100%;
   min-height: 200px;
   background: #eee;
 }

@@ -7,3 +7,4 @@
    handleSelector: ".splitter-horizontal",
    resizeWidth: false
  });
+
