@@ -8,3 +8,7 @@
    resizeWidth: false
  });
 
+ $(".panel-bottom").resizable({
+   handleSelector: ".splitter-horizontal",
+   resizeWidth: false
+ });
